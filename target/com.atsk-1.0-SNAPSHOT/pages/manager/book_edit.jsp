@@ -72,7 +72,7 @@
                     <td>图片：</td>
                     <td>
                         <img src="http://localhost:8080/img/${ book.imgName }"
-                             class="img-thumbnail" alt="未加载" width="304" height="236">
+                             class="img-thumbnail" alt="未加载！" width="304" height="236">
                         <input type="hidden" name="oldImg" value="${ book.imgName }"/>
                     </td>
                     <td>
