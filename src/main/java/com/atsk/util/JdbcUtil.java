@@ -66,7 +66,7 @@ public class JdbcUtil {
                 DbUtils.closeQuietly(conn);
             }
         }
-        // 将连接从当前线程中移除，否则报错（因为 Tomcat 服务器底层使用了线程池技术）
+        // 将连接从当前线程中移除
         connections.remove();
     }
 
@@ -89,7 +89,7 @@ public class JdbcUtil {
                 DbUtils.closeQuietly(conn);
             }
         }
-        // 将连接从当前线程中移除，否则报错（因为Tomcat服务器底层使用了线程池技术）
+        // 将连接从当前线程中移除
         connections.remove();
     }
 
