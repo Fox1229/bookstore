@@ -7,6 +7,7 @@ import java.util.List;
  * @date 2021-07-09 16:42
  */
 public class Page<T> {
+
     public static final Integer PAGE_SIZE = 4;
 
     // 当前页码

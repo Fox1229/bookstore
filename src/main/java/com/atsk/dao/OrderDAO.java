@@ -37,7 +37,6 @@ public interface OrderDAO {
 
     /**
      * 将某一个订单从用户的订单表中移除
-     * @param orderId
      */
     void delUserOrder(String orderId);
 }

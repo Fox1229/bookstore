@@ -6,6 +6,7 @@ package com.atsk.pojo;
  * 管理员表
  */
 public class ManagerUser {
+
     private Integer id;
     private String managerName;
     private String password;

@@ -11,10 +11,8 @@ import java.util.Map;
  * 购物车对象
  */
 public class Cart {
-//    private Integer totalCount;// 商品总量
-//    private BigDecimal totalPrice;// 商品总价
-    private Map<Integer,CartItems> items = new LinkedHashMap<>();
 
+    private Map<Integer,CartItems> items = new LinkedHashMap<>();
 
     /**
      * 添加商品
@@ -95,6 +93,4 @@ public class Cart {
                 ", items=" + items +
                 '}';
     }
-
-
 }

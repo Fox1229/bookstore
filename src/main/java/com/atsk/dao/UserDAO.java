@@ -27,8 +27,6 @@ public interface UserDAO {
 
     /**
      * 根据传入的id,查询一条记录
-     *
-     * @return
      */
     User getUserById(int id);
 
@@ -44,15 +42,11 @@ public interface UserDAO {
 
     /**
      * 返回所有的User
-     *
-     * @return
      */
     List<User> getAllUser();
 
     /**
      * 返回User中指定目录的个数
-     *
-     * @return
      */
     Long getCount();
 }

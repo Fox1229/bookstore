@@ -9,6 +9,7 @@ import java.math.BigDecimal;
  * 购物车商品项
  */
 public class CartItems {
+
     private Integer id;
     private String name;
     private Integer count;

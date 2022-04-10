@@ -17,11 +17,11 @@ public class UserServiceImpl implements UserService {
     public boolean existsUsername(String username) {
 
         User user = dao.getUserByName(username);
-        //用户不存在，可以插入
+        // 用户不存在，可以插入
         if (user == null) {
             return false;
         }
-        //用户名已存在，不能插入
+        // 用户名已存在，不能插入
         return true;
     }
 

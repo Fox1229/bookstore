@@ -5,6 +5,7 @@ package com.atsk.pojo;
  * @date 2021-07-07 15:58
  */
 public class User {
+
     private Integer id;
     private String username;
     private String password;

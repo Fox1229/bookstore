@@ -5,6 +5,7 @@ package com.atsk.pojo;
  * @date 2021-07-08 16:21
  */
 public class Book {
+
     private Integer id;
     private String name;
     private Double price;

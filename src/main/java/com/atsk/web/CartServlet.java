@@ -18,7 +18,6 @@ import java.math.BigDecimal;
 public class CartServlet extends BaseServlet {
 
     private BookService bookService = new BookServiceImpl();
-//    private JSONObject json = new JSONObject();
 
     /**
      * 添加商品
