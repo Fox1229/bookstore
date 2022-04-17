@@ -73,7 +73,7 @@ public class OrderServlet extends BaseServlet {
      */
     protected void sendOrder(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
-        // 获取要发货商品的orderId
+        // 获取要发货订单的orderId
         String orderId = request.getParameter("orderId");
         if (orderId != null) {
             // 发货

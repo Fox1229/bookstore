@@ -61,7 +61,7 @@ public class UserServlet extends BaseServlet {
         request.setAttribute("email", user.getEmail());
 
         if (codeAttribute != null && codeAttribute.equals(code)) {
-            //验证码正确
+            // 验证码正确
             if (dao.existsUsername(user.getUsername())) {
                 //用户名存在,返回首页
                 request.setAttribute("msg", "用户名已存在");
